@@ -8,7 +8,7 @@ df = pd.read_csv('Products.csv')
 st.table(df.head())
 
 st.subheader('Dealing with images')
-st.image('C:/Users/SURAJ/Desktop/STREAMLIT/Ref/img.png')
+st.image('img.png')
 
 
 st.subheader('Working with Images')
