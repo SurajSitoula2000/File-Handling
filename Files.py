@@ -4,7 +4,7 @@ st.subheader('Loading the CSV File')
 
 df = st.file_uploader("Upload the CSV file : ", type = ['csv','xlsx'])
 
-df = pd.read_csv('C:/Users/SURAJ/Desktop/STREAMLIT/Ref/Products.csv')
+df = pd.read_csv('Products.csv')
 st.table(df.head())
 
 st.subheader('Dealing with images')
